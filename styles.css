@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+
+*{ /* Tipografia por defecto de todo el HTML */
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Spartan', sans-serif;
+}
+
+body { /*Incluye solo el cuerpo de la página*/
+    width: 100%;
+}
+
+.header{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 2px solid #000;
+    box-sizing: content-box;
+}
